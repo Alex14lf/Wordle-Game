@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Zen+Dots&display=swap');
+
+.body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    background-color: rgb(18, 18, 19);
+    color: rgb(255, 255, 255);
+    /* border: 2px solid blue; */
+}
+/*INSTRUCCIONES*/
+/* 
+.instructions{
+    position: fixed;
+    top: 0;
+    right: 100px;
+    width: 250px;
+    /* border: 2px solid orange; 
+}
+.instructions__title{
+    margin: 0;
+    /* border: 1px solid yellow; 
+}
+.instructions__description{
+    /* border: 1px solid sienna; 
+    /* transform: translateY(-220px); 
+    /* opacity: 0; */
+    /* transition: transform 5s, opacity 3s; 
+}
+
+.instructions__title:hover + .instructions__description {
+    /* transform: translateY(0); 
+    /* opacity: 1; 
+    /* transition: transform 3s, opacity 5s; 
+}
+ */
+
+/* CONTENIDO DEL JUEGO */
+.container__game{
+    width: 700px;
+    height: 700px;
+    /* border: 2px solid green;  */
+}
+.title__game{
+    height: 30px;
+    font-size: 50px;
+}
+.container__input{
+    /* border: 2px solid magenta;  */
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+.input__game{
+    width: 70px;
+    height: 70px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 56px;
+    font-family: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.input__game:focus {
+    border: 4px solid rgb(115, 0, 255);
+    caret-color: transparent; /* Oculta el cursor */
+    outline: none;
+    transform: scale(1.06);
+  }
+
+.incorrect__input{
+    background-color: rgb(195, 195, 195);
+    color: rgb(255, 255, 255);
+}
+.half__input{
+    background-color: rgb(255, 255, 0) ;
+    color: rgb(255, 255, 255);
+}
+.correct__input{
+    background-color: rgb(0, 255, 0);
+    color: rgb(255, 255, 255);
+}
+
+.message__container{
+    margin-top: 2rem;
+}
+
+.victory__message{
+    color: rgb(0, 255, 0);
+}
+
+.defeat__message{
+    color: rgb(255, 0, 0);
+}
+.restart__game{
+    width: 150px;
+    height: 60px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 1rem;
+    font-family: inherit;
+    font-size: 30px;
+    background-color: rgb(0, 149, 255);
+    color: rgb(255, 255, 255);
+}
+.restart__game:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 149, 255);
+    border: 2px solid rgb(0, 149, 255) ;
+}
+.hide{
+    display: none;
+}
